@@ -1,0 +1,24 @@
+{
+  "name": "ng2-datetimepicker",
+  "version": "1.0.0",
+  "description": "Angular 2 datetime picker",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/connecttheworld/ng2-datetimepicker.git"
+  },
+  "keywords": [
+    "Angular2",
+    "TypeScript",
+    "datetime"
+  ],
+  "author": "connecttheworld",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/connecttheworld/ng2-datetimepicker/issues"
+  },
+  "homepage": "https://github.com/connecttheworld/ng2-datetimepicker#readme"
+}
