@@ -35,3 +35,7 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
+
+# .map and .js files in src directory
+src/**/*.map
+src/**/*.js
