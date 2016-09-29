@@ -1,10 +1,12 @@
 {
   "name": "ng2-datetimepicker",
-  "version": "1.0.0",
+  "version": "0.0.2",
   "description": "Angular 2 datetime picker",
   "main": "index.js",
   "scripts": {
-    "test": "karma start"
+    "test": "karma start",
+    "copy:bs": "copyfiles -f node_modules/bootstrap/dist/css/bootstrap.min.css assets/css & copyfiles -f node_modules/bootstrap/dist/fonts/* assets/fonts",
+    "postinstall": "npm run copy:bs"
   },
   "repository": {
     "type": "git",
@@ -13,7 +15,9 @@
   "keywords": [
     "Angular2",
     "TypeScript",
-    "datetime"
+    "datetime",
+    "picker",
+    "Bootstrap"
   ],
   "author": "connecttheworld",
   "license": "MIT",
@@ -22,8 +26,17 @@
   },
   "homepage": "https://github.com/connecttheworld/ng2-datetimepicker#readme",
   "dependencies": {
+    "@angular/common": "^2.0.1",
+    "@angular/compiler": "^2.0.1",
     "@angular/core": "^2.0.1",
+    "@angular/forms": "^2.0.1",
+    "@angular/platform-browser": "^2.0.1",
+    "bootstrap": "^3.3.7",
     "rxjs": "^5.0.0-beta.12",
+    "typescript": "^2.0.3",
     "zone.js": "^0.6.25"
+  },
+  "devDependencies": {
+    "copyfiles": "^1.0.0"
   }
 }
